@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY'; // Replace with your API key
+const apiKey = '7ea7427c3a616ed0191ee30b4cf59a67'
 const weatherInfo = document.getElementById('weatherInfo');
 const searchButton = document.getElementById('searchButton');
 
