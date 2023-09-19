@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+.app-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+.weather-card {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.app-title {
+    color: #3498db;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #2980b9;
+}
+.weather-info {
+    text-align: left;
+}
+.city-name {
+    font-size: 32px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+.date-time {
+    font-size: 20px;
+    color: #555;
+}
+.top-right-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 2; 
+    border: 2px solid #fff; 
+}
+.bottom-left-trademark {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #6eff66;
+    font-size: 14px;
+    z-index: 1;
+}
