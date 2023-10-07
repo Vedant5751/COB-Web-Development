@@ -1,0 +1,74 @@
+body {
+    background-image: url('background.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    
+}
+
+.converter {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#inputValue {
+    width: 94%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.input-group,
+.output-group {
+    margin-bottom: 10px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.bottom-left-trademark {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #6eff66;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.top-right-image {
+    position: absolute;
+    top: 10px;
+    right: 28px;
+    max-width: 100px;
+    z-index: 1;
+}
